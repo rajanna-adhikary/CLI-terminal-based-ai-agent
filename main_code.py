@@ -34,9 +34,6 @@ def write_file(file_path, content):
         f.write(content)
     return f"File '{file_path}' created successfully."
 
-
-
- 
 avaiable_tools = {
     "get_weather": {
         "fn": get_weather,
@@ -49,9 +46,7 @@ avaiable_tools = {
     "write_file": {
     "fn": write_file,
     "description": "Creates or overwrites a file with the specified content"
-}
-    
-
+}   
 }
 
 system_prompt = f"""
