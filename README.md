@@ -23,14 +23,16 @@ The AI understands your queries and maps them to actual Python functions:
 ### 🔄 Example Workflow
 
 **User Input:**  
-Write a Python file that prints Hello World
+Make a simple Instagram clone for login
 
 **Agent Response:**
-Step: Plan → Create a Python file
-Step: Action → Call write_file
-Step: Observe → File created
-Step: Output → File created successfully
+Step: Plan → Create an HTML and CSS file for the login UI
 
+Step: Action → Call write_file tool with login.html and login.css
+
+Step: Observe → Files created successfully
+
+Step: Output → Basic Instagram-style login page generated
 
 ---
 
@@ -44,35 +46,43 @@ Step: Output → File created successfully
 
 ---
 
-## 🗂️ Project Structure
+ ## 🗂️ Project Structure
 
 CLI-terminal-based-ai-agent/
-├── .gitignore # Specifies untracked files to ignore
-├── requirements.txt # Lists Python dependencies
-├── main_code.py # Core logic of the CLI AI agent
-├── README.md # Project documentation (you are here)
-├── .env # Contains your Gemini API key (not committed)
-├── venv/ # Your Python virtual environment (optional)
-├── screenshot/ # Folder containing proof-of-work images
 
+├── .gitignore                       # Specifies untracked files to ignore
 
----
+├── requirements.txt                 # Lists Python dependencies
 
-📸 Proof of Work
-✅ Tic Tac Toe (Python CLI)
-A mini terminal-based game created using the write_file tool.
+├── main_code.py                     # Core logic of the CLI AI agent
 
+├── README.md                        # Project documentation (you are here)
 
-✅ To-Do List (Frontend Website)
-Basic HTML/CSS-based To-Do web app — built using CLI instructions!
+├── .env                             # Contains your Gemini API key (not committed)
 
-tic-tac-toe.png
+├── venv/                            # Your Python virtual environment (optional)
 
-todo-website.png
-
+├── screenshot/                      # Folder containing proof-of-work images
 
 ---
 
+## 📸 Proof of Work
+
+✅ **Tic Tac Toe (Python CLI)**  
+A mini HTML/CSS/Javascript -based game created using the `write_file` tool.
+
+![Tic Tac Toe Screenshot](screenshot/tic-tac-toe.png)
+
+---
+
+✅ **To-Do List (Frontend Website)**  
+Basic HTML/CSS/Javascript -based To-Do web app — built using CLI instructions!
+
+![To-Do List Screenshot](screenshot/todo-website.png)
+
+
+---
+---
 💡 Inspired and built with guidance from:Hitesh Choudhary sir And Piyush sir
 
 ⭐️ Star this repo if you found it helpful!
